@@ -35,7 +35,7 @@ final class TabBarController: UITabBarController {
         tabBar.layer.borderWidth = 1
         tabBar.layer.masksToBounds = true
         
-        let overviewController = OverViewController()
+        let overviewController = OverviewController()
         let sessionController = SessionController()
         let progressController = ProgressController()
         let settingsController = SettingsController()

@@ -17,8 +17,5 @@ class SessionController: BaseController {
         
                 addNavBarButton(at: .left, with: Resources.Strings.Session.navBarLeft)
                 addNavBarButton(at: .right, with: Resources.Strings.Session.navBarRight)
-}
-    override func navBarLeftButtonHandler() {
-        print("Session NavBar left button tapped")
     }
 }

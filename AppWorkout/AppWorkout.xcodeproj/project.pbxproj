@@ -14,6 +14,7 @@
 		AE1FFD752C7BB0A10032FAFB /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FFD742C7BB0A10032FAFB /* SessionController.swift */; };
 		AE1FFD772C7BBF3A0032FAFB /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FFD762C7BBF3A0032FAFB /* ProgressController.swift */; };
 		AE1FFD792C7BBF6B0032FAFB /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FFD782C7BBF6B0032FAFB /* SettingsController.swift */; };
+		AE1FFD7D2C7D12600032FAFB /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FFD7C2C7D12600032FAFB /* SecondaryButton.swift */; };
 		AE5AD82F2C77DB9400F65F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AD82E2C77DB9400F65F44 /* AppDelegate.swift */; };
 		AE5AD8312C77DB9400F65F44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AD8302C77DB9400F65F44 /* SceneDelegate.swift */; };
 		AE5AD8332C77DB9400F65F44 /* OverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AD8322C77DB9400F65F44 /* OverViewController.swift */; };
@@ -32,6 +33,7 @@
 		AE1FFD742C7BB0A10032FAFB /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		AE1FFD762C7BBF3A0032FAFB /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		AE1FFD782C7BBF6B0032FAFB /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		AE1FFD7C2C7D12600032FAFB /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		AE5AD82B2C77DB9400F65F44 /* AppWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5AD82E2C77DB9400F65F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE5AD8302C77DB9400F65F44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,23 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		AE1FFD7A2C7D12160032FAFB /* OverView */ = {
+			isa = PBXGroup;
+			children = (
+				AE1FFD7B2C7D122E0032FAFB /* Views */,
+				AE5AD8322C77DB9400F65F44 /* OverViewController.swift */,
+			);
+			path = OverView;
+			sourceTree = "<group>";
+		};
+		AE1FFD7B2C7D122E0032FAFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE1FFD7C2C7D12600032FAFB /* SecondaryButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AE5AD8222C77DB9400F65F44 = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +149,7 @@
 			children = (
 				AE5AD8462C77DDA900F65F44 /* Helpers */,
 				AE5AD8422C77DC6C00F65F44 /* Application */,
-				AE5AD8322C77DB9400F65F44 /* OverViewController.swift */,
+				AE1FFD7A2C7D12160032FAFB /* OverView */,
 				AE1FFD682C7BAC9A0032FAFB /* Controllers */,
 				AE5AD8432C77DC8B00F65F44 /* SupportingFiles */,
 			);
@@ -254,6 +273,7 @@
 				AE5AD84B2C77DE3000F65F44 /* Resourses.swift in Sources */,
 				AE5AD8482C77DDBC00F65F44 /* UIColor + ext.swift in Sources */,
 				AE1FFD772C7BBF3A0032FAFB /* ProgressController.swift in Sources */,
+				AE1FFD7D2C7D12600032FAFB /* SecondaryButton.swift in Sources */,
 				AE1FFD6A2C7BACB50032FAFB /* BaseController.swift in Sources */,
 				AE1FFD732C7BB08D0032FAFB /* OverviewController.swift in Sources */,
 				AE5AD8312C77DB9400F65F44 /* SceneDelegate.swift in Sources */,
