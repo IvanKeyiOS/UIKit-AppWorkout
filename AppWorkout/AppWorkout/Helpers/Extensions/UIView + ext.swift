@@ -34,11 +34,18 @@ extension UIView {
             .touchCancel
         ])
     }
+    
     @objc func handleIn() {
         UIView.animate(withDuration: 0.15) { self.alpha = 0.55}
     }
+    
     @objc func handleOut() {
         UIView.animate(withDuration: 0.15) { self.alpha = 1}
+    }
+    
+    func addView(_ view: UIView) {
+        addSubview(view)
+        view.translatesAutoresizingMaskIntoConstraints = false
     }
 }
 
