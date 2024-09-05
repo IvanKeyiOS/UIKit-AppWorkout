@@ -18,7 +18,7 @@ extension WeekView {
     override func setupViews() {
         super.setupViews()
         
-        addView(stackView)
+        setupView(stackView)
     }
     
     override func constraintViews() {
@@ -34,8 +34,6 @@ extension WeekView {
     
     override func configureAppearance() {
         super.configureAppearance()
-        
-//        backgroundColor = .systemBlue
         
         stackView.spacing = 7
         stackView.distribution = .fillEqually

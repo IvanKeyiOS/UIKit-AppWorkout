@@ -19,6 +19,7 @@
 		AE1FFD842C8102110032FAFB /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FFD832C8102110032FAFB /* WeekView.swift */; };
 		AE1FFD862C8105570032FAFB /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FFD852C8105570032FAFB /* WeekdayView.swift */; };
 		AE1FFD882C864C340032FAFB /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FFD872C864C340032FAFB /* Date + ext.swift */; };
+		AE1FFD8B2C8A33660032FAFB /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FFD8A2C8A33660032FAFB /* BaseInfoView.swift */; };
 		AE5AD82F2C77DB9400F65F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AD82E2C77DB9400F65F44 /* AppDelegate.swift */; };
 		AE5AD8312C77DB9400F65F44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AD8302C77DB9400F65F44 /* SceneDelegate.swift */; };
 		AE5AD8332C77DB9400F65F44 /* OverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AD8322C77DB9400F65F44 /* OverViewController.swift */; };
@@ -42,6 +43,7 @@
 		AE1FFD832C8102110032FAFB /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		AE1FFD852C8105570032FAFB /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		AE1FFD872C864C340032FAFB /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
+		AE1FFD8A2C8A33660032FAFB /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
 		AE5AD82B2C77DB9400F65F44 /* AppWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5AD82E2C77DB9400F65F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE5AD8302C77DB9400F65F44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		AE1FFD712C7BB0670032FAFB /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				AE1FFD892C8A334C0032FAFB /* Views */,
 				AE1FFD692C7BACB50032FAFB /* BaseController.swift */,
 				AE1FFD802C7FA7160032FAFB /* BaseView.swift */,
 			);
@@ -138,6 +141,14 @@
 				AE1FFD852C8105570032FAFB /* WeekdayView.swift */,
 			);
 			path = WeekView;
+			sourceTree = "<group>";
+		};
+		AE1FFD892C8A334C0032FAFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE1FFD8A2C8A33660032FAFB /* BaseInfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		AE5AD8222C77DB9400F65F44 = {
@@ -284,6 +295,7 @@
 				AE5AD8452C77DD6700F65F44 /* TabBarController.swift in Sources */,
 				AE5AD82F2C77DB9400F65F44 /* AppDelegate.swift in Sources */,
 				AE1FFD672C7BA8DF0032FAFB /* NavBarController.swift in Sources */,
+				AE1FFD8B2C8A33660032FAFB /* BaseInfoView.swift in Sources */,
 				AE5AD84B2C77DE3000F65F44 /* Resourses.swift in Sources */,
 				AE5AD8482C77DDBC00F65F44 /* UIColor + ext.swift in Sources */,
 				AE1FFD772C7BBF3A0032FAFB /* ProgressController.swift in Sources */,
