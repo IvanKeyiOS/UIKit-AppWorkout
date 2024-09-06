@@ -110,7 +110,6 @@
 			children = (
 				AE1FFD892C8A334C0032FAFB /* Views */,
 				AE1FFD692C7BACB50032FAFB /* BaseController.swift */,
-				AE1FFD802C7FA7160032FAFB /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -146,6 +145,7 @@
 		AE1FFD892C8A334C0032FAFB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AE1FFD802C7FA7160032FAFB /* BaseView.swift */,
 				AE1FFD8A2C8A33660032FAFB /* BaseInfoView.swift */,
 			);
 			path = Views;
