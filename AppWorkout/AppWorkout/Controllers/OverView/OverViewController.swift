@@ -23,7 +23,6 @@ extension OverviewController{
 
         view.addSubview(navBar)
     }
-    
     override func constraintViews() {
         super.constraintViews()
         
@@ -32,15 +31,11 @@ extension OverviewController{
             navBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             navBar.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
-
     }
     
     override func configureAppearance() {
         super.configureAppearance()
-        
         navigationController?.navigationBar.isHidden = true
-        
         navBar.translatesAutoresizingMaskIntoConstraints = false
     }
 }
-

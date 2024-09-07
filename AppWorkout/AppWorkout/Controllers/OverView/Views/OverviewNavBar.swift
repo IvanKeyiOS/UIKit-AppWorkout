@@ -9,9 +9,25 @@ import UIKit
 
 final class OverviewNavBar: BaseView {
     
-    private let titleLabel = UILabel()
-    private let allWorkoutsButton = SecondaryButton()
-    private let addButton = UIButton()
+    private let titleLabel: UILabel = {
+        let label = UILabel()
+        label.text = Resources.Strings.NavBar.overview
+        label.textColor = Resources.Colors.titleGray
+        label.font = Resources.Fonts.helveticaRegular(with: 22)
+        return label
+    }()
+    
+    private let allWorkoutsButton: WAButton = {
+        let button = WAButton(with: .secondary)
+        button.setTitle(Resources.Strings.Overview.allWorkouts, for: .focused)
+        return button
+    }()
+    
+    private let addButton: UIButton = {
+        let button = UIButton()
+        button.setImage(Resources.Images.Common.add, for: .normal)
+        return button
+    }()
     
     private let weekView = WeekView()
     
@@ -52,7 +68,7 @@ extension OverviewNavBar {
                 allWorkoutsButton.topAnchor.constraint(equalTo: addButton.topAnchor),
                 allWorkoutsButton.trailingAnchor.constraint(equalTo: addButton.leadingAnchor, constant: -15),
                 allWorkoutsButton.heightAnchor.constraint(equalToConstant: 28),
-                allWorkoutsButton.widthAnchor.constraint(equalToConstant: 130),
+//                allWorkoutsButton.widthAnchor.constraint(equalToConstant: 130),
     
                 titleLabel.centerYAnchor.constraint(equalTo: allWorkoutsButton.centerYAnchor),
                 titleLabel.trailingAnchor.constraint(equalTo: allWorkoutsButton.leadingAnchor),
@@ -74,7 +90,7 @@ extension OverviewNavBar {
         titleLabel.textColor = Resources.Colors.titleGray
         titleLabel.font = Resources.Fonts.helveticaRegular(with: 22)
         
-        allWorkoutsButton.setTitle(Resources.Strings.Overview.allWorkouts)
+        allWorkoutsButton.setTitle(Resources.Strings.Overview.allWorkouts, for: .focused)
         
         addButton.setImage(Resources.Images.Common.add, for: .normal)
     }

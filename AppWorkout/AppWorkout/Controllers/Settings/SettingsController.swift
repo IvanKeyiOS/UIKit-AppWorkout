@@ -13,5 +13,6 @@ class SettingsController: BaseController {
         super.viewDidLoad()
 
         title = Resources.Strings.NavBar.settings
+        
     }
 }
