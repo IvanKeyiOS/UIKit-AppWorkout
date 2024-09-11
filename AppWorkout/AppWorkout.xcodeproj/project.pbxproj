@@ -28,6 +28,8 @@
 		AE5AD8452C77DD6700F65F44 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AD8442C77DD6700F65F44 /* TabBarController.swift */; };
 		AE5AD8482C77DDBC00F65F44 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AD8472C77DDBC00F65F44 /* UIColor + ext.swift */; };
 		AE5AD84B2C77DE3000F65F44 /* Resourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AD84A2C77DE3000F65F44 /* Resourses.swift */; };
+		AE63CE3A2C921C8D00DAC6AF /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63CE392C921C8D00DAC6AF /* TimerView.swift */; };
+		AE63CE3D2C921D2C00DAC6AF /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63CE3C2C921D2C00DAC6AF /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		AE5AD8442C77DD6700F65F44 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		AE5AD8472C77DDBC00F65F44 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		AE5AD84A2C77DE3000F65F44 /* Resourses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resourses.swift; sourceTree = "<group>"; };
+		AE63CE392C921C8D00DAC6AF /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		AE63CE3C2C921D2C00DAC6AF /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		AE1FFD6E2C7BB01C0032FAFB /* Sessions */ = {
 			isa = PBXGroup;
 			children = (
+				AE63CE382C921C7200DAC6AF /* Views */,
 				AE1FFD742C7BB0A10032FAFB /* SessionController.swift */,
 			);
 			path = Sessions;
@@ -216,6 +221,23 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		AE63CE382C921C7200DAC6AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE63CE3B2C921D1600DAC6AF /* Timer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE63CE3B2C921D1600DAC6AF /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				AE63CE392C921C8D00DAC6AF /* TimerView.swift */,
+				AE63CE3C2C921D2C00DAC6AF /* ProgressView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -292,10 +314,12 @@
 				AE1FFD792C7BBF6B0032FAFB /* SettingsController.swift in Sources */,
 				AE1FFD752C7BB0A10032FAFB /* SessionController.swift in Sources */,
 				AE1FFD6C2C7BAEE00032FAFB /* UIView + ext.swift in Sources */,
+				AE63CE3D2C921D2C00DAC6AF /* ProgressView.swift in Sources */,
 				AE5AD8452C77DD6700F65F44 /* TabBarController.swift in Sources */,
 				AE5AD82F2C77DB9400F65F44 /* AppDelegate.swift in Sources */,
 				AE1FFD672C7BA8DF0032FAFB /* NavBarController.swift in Sources */,
 				AE1FFD8B2C8A33660032FAFB /* WABaseInfoView.swift in Sources */,
+				AE63CE3A2C921C8D00DAC6AF /* TimerView.swift in Sources */,
 				AE5AD84B2C77DE3000F65F44 /* Resourses.swift in Sources */,
 				AE5AD8482C77DDBC00F65F44 /* UIColor + ext.swift in Sources */,
 				AE1FFD772C7BBF3A0032FAFB /* ProgressController.swift in Sources */,

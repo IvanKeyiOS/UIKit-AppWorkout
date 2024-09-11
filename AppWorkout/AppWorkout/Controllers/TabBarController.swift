@@ -20,6 +20,7 @@ final class TabBarController: UITabBarController {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
         configureAppearance()
+        switchTo(tab: .session)
     }
     
     required init?(coder: NSCoder) {
@@ -27,9 +28,12 @@ final class TabBarController: UITabBarController {
     }
     
     func switchTo(tab: Tabs) {
+        guard let items = tabBar.items, tab.rawValue < items.count else {
+            return
+        }
+        
         selectedIndex = tab.rawValue
     }
-    
     private func configureAppearance() {
         tabBar.tintColor = Resources.Colors.active
         tabBar.barTintColor = Resources.Colors.inactive

@@ -19,7 +19,7 @@ final class OverviewNavBar: BaseView {
     
     private let allWorkoutsButton: WAButton = {
         let button = WAButton(with: .secondary)
-        button.setTitle(Resources.Strings.Overview.allWorkouts, for: .focused)
+        button.setTitle(Resources.Strings.Overview.allWorkouts, for: .normal)
         return button
     }()
     
@@ -68,7 +68,6 @@ extension OverviewNavBar {
                 allWorkoutsButton.topAnchor.constraint(equalTo: addButton.topAnchor),
                 allWorkoutsButton.trailingAnchor.constraint(equalTo: addButton.leadingAnchor, constant: -15),
                 allWorkoutsButton.heightAnchor.constraint(equalToConstant: 28),
-//                allWorkoutsButton.widthAnchor.constraint(equalToConstant: 130),
     
                 titleLabel.centerYAnchor.constraint(equalTo: allWorkoutsButton.centerYAnchor),
                 titleLabel.trailingAnchor.constraint(equalTo: allWorkoutsButton.leadingAnchor),
@@ -86,7 +85,6 @@ extension OverviewNavBar {
         super.configureAppearance()
         backgroundColor = .white
 
-        titleLabel.text = Resources.Strings.NavBar.overview
         titleLabel.textColor = Resources.Colors.titleGray
         titleLabel.font = Resources.Fonts.helveticaRegular(with: 22)
         
